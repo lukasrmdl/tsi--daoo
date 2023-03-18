@@ -1,0 +1,11 @@
+{
+	"db":{
+		"drive":"mysql",
+		"host":"127.0.0.1",
+		"name":"daoo_2023",
+		"port":"3306",
+		"charset":"utf8",
+		"user":"root",
+		"pass":"senha5"
+	}
+}

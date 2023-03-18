@@ -1,0 +1,11 @@
+{
+	"db":{
+		"drive":"mysql",
+		"host":"127.0.0.1",
+		"name":"daoo_pdo",
+		"port":"5432",
+		"charset":"utf8",
+		"user":"root",
+		"pass":"r00t"
+	}
+}
