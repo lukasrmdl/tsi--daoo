@@ -1,15 +1,14 @@
 {
-    "name": "daoo/aula_03",
-    "license": "GPL",
+    "name": "rodori/atividade_03",
     "autoload": {
         "psr-4": {
-            "Daoo\\Aula03\\": "src/"
+            "Daoo\\Atividade03\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Gill Velleda Gonzales",
-            "email": "gillgonzales@ifsul.edu.br"
+            "name": "Mateus Rodrigues",
+            "email": "mrodrigues7373@gmail.com"
         }
     ],
     "scripts":{
@@ -18,12 +17,5 @@
         "kill":"kill -9  $(ps -ax -o pid,command| grep 'php -S localhost:8081' | grep -v 'grep' | head -n 1 | cut -f 2 -d ' ')",
         "restart": "composer run kill; composer run api"
     },
-    "require-dev": {
-        "ramsey/composer-repl": "^1.4"
-    },
-    "config": {
-        "allow-plugins": {
-            "ramsey/composer-repl": true
-        }
-    }
+    "require": {}
 }
